@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: red;
+    padding: 0 30px;
+}
+nav ul li{
+    display: inline;
+    padding: 0 30px;
+}
+nav ul li a{
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21.62px;
+    color: white;
+}
